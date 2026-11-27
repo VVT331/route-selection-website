@@ -11,10 +11,85 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/src/sass/style.scss">
+    <link rel="stylesheet" href="src/sass/style.scss">
 </head>
 
 <body>
+    <div class="burger">
+        <div class="container">
+            <div class="burger__header">
+                <img src="/src/assets/img/logo_website.png" alt="logo" class="burger__header-logo">
+                <div class="burger__header-close">
+                    <span class="burger__header-line"></span>
+                    <span class="burger__header-line"></span>
+                </div>
+            </div>
+            <div class="burger__menu">
+                <ul class="burger__menu-links">
+                    <li class="burger__menu-link title-h2-big"><a href="#">Главная</a></li>
+                    <li class="burger__menu-link title-h2-big"><a href="#">Маршруты</a></li>
+                    <li class="burger__menu-link title-h2-big"><a href="#">Сохраненные</a></li>
+                </ul>
+                <a href="#" class="burger__menu-btn">
+                    <p class="paragraph-small">Найти свой маршрут</p>
+                    <span class="icon-link-ext"></span>
+                </a>
+                <div class="burger__menu-footer">
+                    <p class="paragraph-small burger__menu-ps paragraph-opacity">Хорошие места ближе, чем кажется.</p>
+                    <div class="burger__menu-sup">
+                        <p class="paragraph-big">Написать нам</p>
+                        <span class="icon-link-ext"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navigation">
+        <div class="container">
+            <div class="navigation__wrapper">
+                <img src="/src/assets/img/logo_website.png" alt="logo" class="navigation__logo">
+                <div class="navigation__links">
+                    <a href="#" class="navigation__links-link title-h5">Главная</a>
+                    <a href="#" class="navigation__links-link title-h5">Маршруты</a>
+                    <a href="#" class="navigation__links-link title-h5">Сохранённые</a>
+                </div>
+                <div class="navigation__burger">
+                    <span class="navigation__burger-line"></span>
+                    <span class="navigation__burger-line"></span>
+                    <span class="navigation__burger-line"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="info">
+        <div class="container">
+            <div class="info__wrapper">
+                <div class="info__description">
+                    <h5 class="title-h5">МЕНЬШЕ ПЛАНОВ. БОЛЬШЕ ВПЕЧАТЛЕНИЙ.</h5>
+                    <h1 class="title-h1">Хороший день начинается с прогулки.</h1>
+                    <h4 class="title-h4">Находите живописные маршруты, выбирайте свой
+                        темп и открывайте знакомые места заново.</h4>
+                    <a href="#" class="info__description-btn">
+                        <p class="paragraph-small">Найти свой маршрут</p>
+                        <span class="icon-link-ext"></span>
+                    </a>
+                    <p class="paragraph-small paragraph-opacity">Без сложной подготовки. Просто идите.</p>
+                </div>
+                <div class="info__gulf">
+                    <div class="info__gulf-container">
+                        <div class="info__gulf-feeling">Выбирайте впечатления</div>
+                        <div class="info__gulf-advice">
+                            <div class="info__gulf-next">
+                                <p class="paragraph-small paragraph-opacity">Ваш следующий маленький побег</p>
+                                <h3 class="title-h3">Выходные за пределами привычного</h3>
+                            </div>
+                            <span class="icon-link-ext"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <script type="module" src="/src/js/script.js"></script>

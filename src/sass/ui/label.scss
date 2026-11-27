@@ -1,0 +1,12 @@
+@use "/src/sass/base_option/mixsins.scss" as *;
+
+.label-text {
+    @include label;
+    font-size: 11px;
+}
+
+@media screen and (max-width: 768px) {
+    .label-text {
+        font-size: 10px;
+    }
+}

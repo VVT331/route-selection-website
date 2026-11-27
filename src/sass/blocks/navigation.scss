@@ -1,0 +1,35 @@
+.navigation {
+    padding-top: 26px;
+    margin-bottom: 30px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 55px;
+
+        &-link {
+            text-decoration: none;
+        }
+    }
+
+    &__burger {
+        display: none;
+        flex-direction: column;
+        row-gap: 6px;
+        cursor: pointer;
+
+        &-line {
+            border-radius: 1px;
+            width: 24px;
+            height: 2px;
+            background: #20291f;
+        }
+    }
+}

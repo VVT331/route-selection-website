@@ -1,0 +1,87 @@
+@use "/src/sass/base_option/mixsins.scss" as *;
+
+.paragraph-big {
+    @include paragraph;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.paragraph-small {
+    @include paragraph;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.paragraph-opacity {
+    opacity: 0.75;
+}
+
+@media screen and (max-width: 1440px) {
+    .paragraph-big {
+        font-size: 18px;
+    }
+
+    .paragraph-small {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .paragraph-big {
+        font-size: 16px;
+    }
+
+    .paragraph-small {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .paragraph-big {
+        font-size: 16px;
+    }
+
+    .paragraph-small {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .paragraph-big {
+        font-size: 15px;
+    }
+
+    .paragraph-small {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .paragraph-big {
+        font-size: 14px;
+    }
+
+    .paragraph-small {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .paragraph-big {
+        font-size: 14px;
+    }
+
+    .paragraph-small {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .paragraph-big {
+        font-size: 13px;
+    }
+
+    .paragraph-small {
+        font-size: 12px;
+    }
+}

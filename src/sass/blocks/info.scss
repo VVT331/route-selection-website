@@ -1,0 +1,86 @@
+.info {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+
+        h1,
+        h4 {
+            margin-top: 33px;
+            max-width: 665px;
+        }
+
+        &-btn {
+            padding: 16px 22px;
+            margin-top: 38px;
+            display: flex;
+            align-items: center;
+            column-gap: 5px;
+            border-radius: 28px;
+            width: 260px;
+            height: 52px;
+            background: #d8ed83;
+            text-decoration: none;
+        }
+
+        p:nth-last-child(1) {
+            margin-top: 24px;
+        }
+
+    }
+
+
+    &__gulf {
+        justify-self: end;
+        background: url('/src/assets/img/Побережье\ Финского\ залива.png') center / cover no-repeat;
+        border-radius: 24px;
+        width: 100%;
+        max-width: 644px;
+        aspect-ratio: 1 / 1;
+
+        &-container {
+            height: 100%;
+            width: 100%;
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            padding: 24px;
+        }
+
+        &-feeling {
+            width: 213px;
+            padding: 12px 15px;
+            align-self: start;
+            border-radius: 17px;
+            background: #fff;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+        &-advice {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            row-gap: 12px;
+            padding: 18px 20px;
+            align-self: end;
+            border-radius: 16px;
+            width: 100%;
+            background: #fff;
+
+            span {
+                font-size: 22px;
+            }
+        }
+
+        &-next {
+            display: flex;
+            flex-direction: column;
+            row-gap: 12px;
+        }
+    }
+}
